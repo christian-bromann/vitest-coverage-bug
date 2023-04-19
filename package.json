@@ -1,0 +1,16 @@
+{
+  "name": "vitest-coverage-bug",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./src/app.js",
+  "scripts": {
+    "test": "vitest run -c vitest.conf.js"
+  },
+  "keywords": [],
+  "author": "Christian Bromann <christian@stateful.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@vitest/coverage-c8": "^0.29.1",
+    "vitest": "^0.29.8"
+  }
+}
